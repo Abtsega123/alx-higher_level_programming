@@ -1,21 +1,6 @@
-/*
- * File: 0-isupper.c
- * Auth: Abtsega Tesfaye
- */
-
-#include "main.h"
-
-/**
- * _isupper - Checks for uppercase characters.
- * @c: The character to be checked.
- *
- * Return: 1 if character is uppercase, 0 otherwise.
- */
-int _isupper(int c)
-{
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-
-	else
-		return (0);
-}
+#!/usr/bin/python3
+def square_matrix_simple(matrix=[]):
+    squared = []
+    for line in matrix:
+        squared.append([c**2 for c in line])
+    return squared
