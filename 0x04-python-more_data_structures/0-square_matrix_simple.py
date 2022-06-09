@@ -4,3 +4,4 @@ def square_matrix_simple(matrix=[]):
     for line in matrix:
         squared.append([c**2 for c in line])
     return squared
+
