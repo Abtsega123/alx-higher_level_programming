@@ -1,6 +1,6 @@
 /*
  * File: 0-isupper.c
- * Auth: Abenezer Golda
+ * Auth: Abtsega Tesfaye
  */
 
 #include "main.h"
