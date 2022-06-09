@@ -1,6 +1,21 @@
-#!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    new_matrix = matrix.copy()
-    for row in range(len(new_matrix)):
-        new_matrix[row] = list(map(lambda x: x ** 2, new_matrix[row]))
-    return new_matrix
+/*
+ * File: 0-isupper.c
+ * Auth: Abenezer Golda
+ */
+
+#include "main.h"
+
+/**
+ * _isupper - Checks for uppercase characters.
+ * @c: The character to be checked.
+ *
+ * Return: 1 if character is uppercase, 0 otherwise.
+ */
+int _isupper(int c)
+{
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+
+	else
+		return (0);
+}
