@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 Module for a class that prevents dynamic attributes creation
+
 """
 
 
